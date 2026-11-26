@@ -12,4 +12,8 @@ public abstract class ControlRemoto {
     public abstract void volumeUp();
     public abstract void channelDown();
     public abstract void channelUp();
+
+    public void printDeviceStatus() {
+        dispositivo.printStatus();
+    }
 }
